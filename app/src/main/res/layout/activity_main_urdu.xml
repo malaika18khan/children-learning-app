@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="urdu_letters.MainUrdu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btn_alif"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#CA46E1"
+                        android:gravity="center"
+                        android:text="ا"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_bay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3953E4"
+                        android:gravity="center"
+                        android:text="ب"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#CA46E1"
+                        android:gravity="center"
+                        android:text="پ"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_tay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3953E4"
+                        android:gravity="center"
+                        android:text="ت"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_ttay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#CA46E1"
+                        android:gravity="center"
+                        android:text="ٹ"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_say"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3953E4"
+                        android:gravity="center"
+                        android:text="ث"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_jeem"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#CA46E1"
+                        android:gravity="center"
+                        android:text="ج"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_chay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3953E4"
+                        android:gravity="center"
+                        android:text="چ"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_hay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#CA46E1"
+                        android:gravity="center"
+                        android:text="ح"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+                    <TextView
+                        android:id="@+id/btn_khay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3953E4"
+                        android:gravity="center"
+                        android:text="خ"
+                        android:textColor="#FFFFFF"
+                        android:textSize="75sp" />
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="urdu_letters.alifLetter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>

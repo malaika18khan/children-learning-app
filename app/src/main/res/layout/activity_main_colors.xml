@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="colors.MainColors">
+
+    <LinearLayout
+        android:layout_width="107dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/btn_pink"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Pink"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_violet"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Violet"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Green"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Grey"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_yellow"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Yellow"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Red"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Blue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_brown"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Brown"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="Orange"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/btn_teal"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Teal"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="colors.ColorPink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

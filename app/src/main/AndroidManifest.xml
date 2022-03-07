@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.classprojects.childrenlearningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChildrenLearningApp">
+        <activity
+            android:name="shapes.MainShapes"
+            android:exported="false" />
+        <activity
+            android:name="colors.Intro_Colors"
+            android:exported="false" />
+        <activity
+            android:name="shapes.Intro_Shape"
+            android:exported="false" />
+        <activity
+            android:name="shapes_pack.Intro_Shapes"
+            android:exported="false" />
+        <activity
+            android:name="numbers_pack.MainNumbers"
+            android:exported="false" />
+        <activity
+            android:name="numbers_pack.Intro_Numbers"
+            android:exported="false" />
+        <activity
+            android:name="colors.MainColors"
+            android:exported="false" />
+        <activity
+            android:name="numbers.MainNumbers"
+            android:exported="false" />
+        <activity
+            android:name="urdu_letters.MainUrdu"
+            android:exported="false" />
+        <activity
+            android:name="urdu_letters.Intro_Urdu"
+            android:exported="false" />
+        <activity
+            android:name="english_letters.MainEng"
+            android:exported="false" />
+        <activity
+            android:name="english_letters.Intro_Eng"
+            android:exported="false" />
+        <activity
+            android:name=".english_letters.EngIntroScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
